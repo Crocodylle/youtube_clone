@@ -1,6 +1,8 @@
 import React from 'react'
 
-export const Videos = () => {
+export const Videos = ({ videos }) => {
+    console.log(videos);
+
   return (
     <div>Videos</div>
   )
