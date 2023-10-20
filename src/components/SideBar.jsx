@@ -19,7 +19,8 @@ export const SideBar = ( { selectedCategory, setSelectedCategory }) => (
        style={{ 
         background: category.name === 
         selectedCategory && '#FC1503', 
-        color: 'white'
+        color: 'white',
+        marginRight: '12px'
        }} 
        key={category.name}
        > 
